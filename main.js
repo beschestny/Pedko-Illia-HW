@@ -50,4 +50,22 @@ console.log(num7 - number4);
 console.log(num6 - number4);
 console.log(num5 - number4);
 
+// =================================== NEXT TASKS=========================
+
+// let login = prompt("Enter your name");
+// let password = prompt("Enter your password");
+// if (login === "kykold" && password === '1234asdQQ')
+//     console.log('Welcome');
+// else
+//     console.log('Not correct');
+// ==============================Task 7=====================================================
+
+let age = prompt("Enter your age");
+
+
+if (age >= 16)
+    console.log('Welcome');
+
+else if (age < 16)
+    console.log('You are not ready');
 

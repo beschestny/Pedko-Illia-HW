@@ -60,12 +60,71 @@ console.log(num5 - number4);
 //     console.log('Not correct');
 // ==============================Task 7=====================================================
 
-let age = prompt("Enter your age");
+// let age = prompt("Enter your age");
+//
+//
+// if (age >= 16)
+//     console.log('Welcome');
+//
+// else if (age < 16)
+//     console.log('You are not ready');
 
+// ====================================== Task8======================================
 
-if (age >= 16)
-    console.log('Welcome');
+// let experience = prompt("Enter your experience in our company");
+// if (experience <= 2)
+//     console.log('You will not have more money')
+// else if (experience > 2 && experience <= 7)
+//     console.log('You will + 10% for salary ')
+//  else if (experience >= 8)
+//     console.log('You will + 20% for salary')
 
-else if (age < 16)
-    console.log('You are not ready');
+// ======================================== Task 9========================================
+
+let daynumber = +prompt("Please enter day number");
+
+//  if (daynumber === 1)
+//      console.log('Monday')
+// else if (daynumber === 2)
+//     console.log('Tuesday')
+// else if (daynumber === 3)
+//     console.log('Wednesday')
+// else if (daynumber === 4)
+//     console.log('Thursday')
+// else if (daynumber === 5)
+//     console.log('Friday')
+// else if (daynumber === 6)
+//     console.log('Saturday')
+// else if (daynumber === 7)
+//     console.log('Sunday')
+// else
+//     console.log('Are you okay?')
+
+switch (daynumber) {
+    case 1:
+        console.log('Monday');
+        break;
+        case 2:
+            console.log('Tuesday');
+            break;
+            case 3:
+                console.log('Wednesday');
+                break;
+                case 4:
+                    console.log('Thursday');
+                    break;
+                    case 5:
+                        console.log('Friday');
+                        break;
+                        case 6:
+                            console.log('Saturday');
+                            break;
+                            case 7:
+                                console.log('Sunday');
+                                break;
+                                default:
+                                    console.log(' You are Invalid ');
+                                    break;
+}
+
 

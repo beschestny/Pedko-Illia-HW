@@ -81,7 +81,7 @@ console.log(num5 - number4);
 
 // ======================================== Task 9========================================
 
-let daynumber = +prompt("Please enter day number");
+// let daynumber = +prompt("Please enter day number");
 
 //  if (daynumber === 1)
 //      console.log('Monday')
@@ -100,31 +100,84 @@ let daynumber = +prompt("Please enter day number");
 // else
 //     console.log('Are you okay?')
 
-switch (daynumber) {
-    case 1:
-        console.log('Monday');
+// // switch (daynumber) {
+// //     case 1:
+// //         console.log('Monday');
+// //         break;
+// //         case 2:
+// //             console.log('Tuesday');
+// //             break;
+// //             case 3:
+// //                 console.log('Wednesday');
+// //                 break;
+// //                 case 4:
+// //                     console.log('Thursday');
+// //                     break;
+// //                     case 5:
+// //                         console.log('Friday');
+// //                         break;
+// //                         case 6:
+// //                             console.log('Saturday');
+// //                             break;
+// //                             case 7:
+// //                                 console.log('Sunday');
+// //                                 break;
+// //                                 default:
+// //                                     console.log(' You are Invalid ');
+// //                                     break;
+// }
+
+// ========================= Task 10-14===========================================
+// {
+// // let zahlen = +prompt("Please enter number");
+// //
+// // if (zahlen > 0) { alert("1"); }
+// // else if (zahlen < 0) { alert("-1"); }
+// // else if (zahlen === 0) { alert("0"); }
+// }
+
+// {
+//     let flat = +prompt("Please enter Flat number");
+//
+//     if (flat >= 1 && flat <= 20) {
+//         alert("your house 1");
+//     } else if (flat >= 21 && flat <= 48) {
+//         alert("your house 2");
+//     } else if (flat >= 49 && flat <= 90) {
+//         alert("your house 3");
+//     } else {
+//         alert("Eror");
+//     }
+// }
+
+// let browser = prompt("Please enter name of your browser");
+//
+//     if (browser === "Edge") {alert ("You've got the Edge!")}
+//     else if (browser === "Chrome" || browser === "Safari" || browser ==="Opera") {alert ("Okay we support these browsers too")}
+//     else alert("We hope that this page looks ok!");
+
+
+const number = +prompt('Введите число между 0 и 3', '');
+
+switch (number) {
+    case 0:
+        alert('Вы ввели число 0')
         break;
-        case 2:
-            console.log('Tuesday');
-            break;
-            case 3:
-                console.log('Wednesday');
-                break;
-                case 4:
-                    console.log('Thursday');
-                    break;
-                    case 5:
-                        console.log('Friday');
-                        break;
-                        case 6:
-                            console.log('Saturday');
-                            break;
-                            case 7:
-                                console.log('Sunday');
-                                break;
-                                default:
-                                    console.log(' You are Invalid ');
-                                    break;
+        case 1:
+            alert('Вы ввели число 1')
+        break;
+            case 2:
+    case 3:
+        alert('Вы ввели число 2, а может и 3')
+        break;
+    default:
+        alert ("You're stupid as fuck");
+
 }
+
+
+
+
+
 
 
